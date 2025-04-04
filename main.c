@@ -4,7 +4,7 @@
 #define MAX 10  // Maksimum jumlah simpul
 
 // Fungsi untuk mengurutkan simpul berdasarkan derajatnya (dari terbesar ke terkecil)
-void urutkanSimpulBerdasarkanDerajat(int n, int derajat[], int urutan[]) {
+void bubbleSort(int n, int derajat[], int urutan[]) {
     int i, j, sementara;
 
     // Inisialisasi array urutan dengan indeks vertex
