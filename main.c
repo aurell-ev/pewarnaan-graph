@@ -32,7 +32,7 @@ void urutkanSimpulBerdasarkanDerajat(int n, int derajat[], int urutan[]) {
 }
 
 // Fungsi untuk melakukan pewarnaan graf dengan Welch-Powell
-void welchPowellColoring(int n, int graph[MAX][MAX]) {
+void pewarnaanWelchPowell(int n, int graph[MAX][MAX]) {
     int derajat[MAX] = {0};      // Menyimpan derajat setiap simpul
     int urutan[MAX];            // Menyimpan urutan simpul setelah diurutkan
     int warna[MAX];             // Menyimpan warna yang diberikan untuk setiap simpul
@@ -120,7 +120,7 @@ int main() {
         printf("\n");
     }
 
-    welchPowellColoring(n, graph);
+    pewarnaanWelchPowell(n, graph);
 
     return 0;
 }
